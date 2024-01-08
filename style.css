@@ -506,6 +506,11 @@ footer ul li {
         width: var(--container-width-phone)
     }
 
+    .header__title {
+        padding: 0;
+        margin: 0;
+    }
+
     .nav__items li a {
         justify-content: center;
         padding: 0;
@@ -536,6 +541,8 @@ footer ul li {
     .footer__container {
         grid-template-columns: 1fr;
         text-align: center;
+        padding: 0;
+        margin: 0;
     }
 
     .footer__socials {
